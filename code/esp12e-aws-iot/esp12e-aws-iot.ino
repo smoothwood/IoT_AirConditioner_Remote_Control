@@ -39,11 +39,11 @@ extern "C" {
 }
 
 //AWS IOT config, change these:
-char wifi_ssid[]       = "ycm119";
+char wifi_ssid[]       = "your ssid";
 char wifi_password[]   = "67035803";
 char aws_endpoint[]    = "a3f3ep261pa8dz-ats.iot.ap-northeast-1.amazonaws.com";
-char aws_key[]         = "AKIAZQKM55U7MG2QOVPE";
-char aws_secret[]      = "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";
+char aws_key[]         = "Access key";
+char aws_secret[]      = "Secret access key";
 char aws_region[]      = "ap-northeast-1";
 const char* aws_topic  = "airconditionertopic"; // set topic, publish message to this topic
 int port = 443;
